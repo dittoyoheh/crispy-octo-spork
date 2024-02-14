@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character set used -->
+    <meta charset="UTF-8">
+    
+    <!-- Keywords for search engines -->
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre Baskerville|Source Sans Pro">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Description of web page -->
+    <meta name="description" content="About me!">
+    <meta name="author" content="Hannah Rivet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="bgheader1">
+    <div class="header">
+        <h1>HANNAH RIVET</h1>
+        <p>Sculpting Space, Revealing Insights: The Student Perspective on GIS.</p>
+      </div>
+</div>
+      
+<!-- Nav bar -->
+<div class="navbar" id="myNavbar">
+    <a href="index.html" >Home</a>
+    <a href="portfolio.html" class="active" >Portfolio</a>
+    <a href="contact.html" class="right">Contact</a> <!-- "right" makes that one tab fixed to the right -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+</div>
+    <script src="myscripts.js"> </script>
+
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openSemester(event, 'SemesterOne')" id="defaultOpen">SemesterOne</button>
+    <button class="tablinks" onclick="openSemester(event, 'SemesterTwo')">SemesterTwo</button>
+    <button class="tablinks" onclick="openSemester(event, 'SemesterThree')">SemesterThree</button>
+</div>
+  
+<!-- Tab content -->
+<div id="SemesterOne" class="tabcontent">
+    <h3>Semester One</h3>
+    <p>London is the capital city of England.</p>
+</div>
+  
+<div id="SemesterTwo" class="tabcontent">
+    <h3>Semester Two</h3>
+    <p>Paris is the capital of France.</p>
+</div>
+  
+<div id="SemesterThree" class="tabcontent">
+    <h3>Semester Three</h3>
+    <p>Hasn't happened yet silly.</p>
+</div>
+<script src="myscripts.js"> </script>
+
+</body>
+</html>
